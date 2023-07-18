@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+
+<body>
+    <div class="container">
+
+        <div class="content">
+            <div class="intro">
+                <div class="inputs">
+                    <h2>My <br> Notes</h2>
+                    <form>
+                        <input type="text" placeholder="Title" id="input1"  maxlength="10"> <button id="addButton">+</button>
+                        <br> <!--TODO: Chamge this in CSS-->
+                        <textarea class="wideInput" type="message" placeholder="Content" id="input2"></textarea>
+                    </form>
+                </div>
+                <div class="category_selector">
+                    <div class="category all">
+                        <p> All</p>
+                    </div>
+                    <div class="category card_large">
+                        <p>Large</p>
+                    </div>
+                    <div class="category card_medium">
+                        <p>Normal</p>
+                    </div>
+                    <div class="category card_small">
+                        <p>Small</p>
+                    </div>
+                    <div class="category card_verysmall">
+                        <p>mini</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pin_container">
+
+
+                <div class="wip" style="display: none;"></div>
+
+
+
+                <div class="card card_large">
+                    <div class="tarjeta-header">
+                        <p>Lorem</p><button> X </button>
+                    </div>
+                    <div class="tarjeta-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptatem veniam ad repellendus dicta expedita.</p>
+                    </div>
+                    <div class="tarjeta-footer">
+                        <p>2023-12-12</p>
+                    </div>
+                </div>
+
+
+                <div class="card card_medium">
+                    <div class="tarjeta-header">
+                        <p>Lorem</p><button> X </button>
+                    </div>
+                    <div class="tarjeta-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, voluptatem!</p>
+                    </div>
+                    <div class="tarjeta-footer">
+                        <p>2023-12-12</p>
+                    </div>
+                </div>
+
+                <div class="card card_small">
+                    <div class="tarjeta-header">
+                        <p>Lorem</p><button> X </button>
+                    </div>
+                    <div class="tarjeta-body">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="tarjeta-footer">
+                        <p>2023-12-12</p>
+                    </div>
+                </div>
+
+                <div class="card card_verysmall">
+                    <div class="tarjeta-header">
+                        <p>Lorem</p><button> X </button>
+                    </div>
+                    <div class="tarjeta-body">
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="tarjeta-footer">
+                        <p>2023-12-12</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
