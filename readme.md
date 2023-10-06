@@ -8,3 +8,5 @@
 ### TODO
 - Customization Options
 - Edit Notes
+
+![Title](https://github.com/Acosta01-dev/MyNotes/assets/79601880/d35ffd01-478d-4a54-96ff-7d83e15f62c4)
